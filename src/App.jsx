@@ -9,7 +9,7 @@ function App() {
   return (
     <>
         {
-          isDesktop ? <DesktopView setIsDesktop={setIsDesktop} /> : <MobileView setIsDesktop={setIsDesktop} />
+          isDesktop ? <DesktopView setIsDesktop={setIsDesktop} isDesktop={isDesktop} /> : <MobileView setIsDesktop={setIsDesktop} />
         }
     </>
   )

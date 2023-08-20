@@ -2,7 +2,7 @@ import { icons } from "../assets/iconIndex";
 
 const AssessmentCard = ({setIsOpenModal,assessmentItem}) => {
   return (
-    <div className="w-[360px] h-52 bg-[#F6F8FA] text-[#1C4980] rounded-lg border-2 p-4 flex flex-col gap-2">
+    <div className="w-full sm:w-[360px] h-52 bg-[#F6F8FA] text-[#1C4980] rounded-lg border-2 p-4 flex flex-col gap-2">
       <div className="flex w-full justify-between">
         <img src={icons.job} alt="job" />
         <img src={icons.dot} alt="" />

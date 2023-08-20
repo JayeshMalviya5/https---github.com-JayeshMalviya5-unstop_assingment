@@ -21,8 +21,8 @@ const AssessmentOverview = () => {
                     <img src={icons.candidates} alt="Total Purpose" />
                     <div className="pr-4 border-r-[1px]">
                       <p className="text-[20px] flex items-center gap-1 font-bold">
-                        9245{" "}
-                        <span className="text-[#05C165] text-[12px] ">+32</span>{" "}
+                        11145{" "}
+                        <span className="text-[#05C165] text-[12px] ">+89</span>{" "}
                       </p>
                       <p className="font-semibold text-[12px]">
                         Total Candidates
@@ -54,8 +54,8 @@ const AssessmentOverview = () => {
                     </div>
                     <div className="pr-4 border-r-[1px]">
                       <p className="text-[20px] flex items-center gap-1 font-bold">
-                        6495{" "}
-                        <span className="text-[#05C165] text-[12px] ">+12</span>{" "}
+                        111{" "}
+                        <span className="text-[#05C165] text-[12px] ">+89</span>{" "}
                       </p>
                       <p className="font-semibold text-[12px]">
                         Social share
@@ -63,7 +63,7 @@ const AssessmentOverview = () => {
                     </div>
                     <div className="pr-4">
                       <p className="text-[20px] flex items-center gap-1 font-bold">
-                        10800{" "}
+                        1040{" "}
                         <span className="text-[#05C165] text-[12px] ">+14</span>{" "}
                       </p>
                       <p className="font-semibold text-[12px]">Unique Link</p>

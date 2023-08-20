@@ -10,7 +10,7 @@ const MyAssessment = ({setIsOpenModal}) => {
     <div className="p-5 flex flex-col gap-5">
       <p className="text-[18px] text-[#1C4980]">My Assessments</p>
       <div className="flex flex-wrap justify-start gap-5">
-        <div onClick={()=>setIsOpenModal(true)}  className="w-[360px] hover:cursor-pointer h-52 bg-[#F6F8FA] text-[#1C4980] rounded-lg border-dotted border-2 p-7 flex flex-col gap-2 justify-center items-center">
+        <div onClick={()=>setIsOpenModal(true)}  className="w-full sm:w-[360px] hover:cursor-pointer h-52 bg-[#F6F8FA] text-[#1C4980] rounded-lg border-dotted border-2 p-7 flex flex-col gap-2 justify-center items-center">
           <img src={icons.add} alt="Add" />
           <p className="text-xl ">New Assessment</p>
           <p className="text-center text-sm">

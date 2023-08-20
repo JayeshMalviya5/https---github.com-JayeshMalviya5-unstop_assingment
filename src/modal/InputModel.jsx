@@ -1,7 +1,5 @@
 import { AiOutlineClose } from "react-icons/ai";
 import Input from "@mui/joy/Input";
-import Select from "@mui/joy/Select";
-import Option from "@mui/joy/Option";
 import { Button } from "@mui/joy";
 import { AssessmentContext } from "../context/AssesssmentContext";
 import { useContext, useState } from "react";
@@ -14,18 +12,18 @@ const InputModel = ({ setIsOpenModal }) => {
   console.log(question);
 
   return (
-    <div className="p-10 opacity-110 w-7/12 flex flex-col justify-around h-auto gap-7 bg-white rounded-xl">
-      <div className="flex justify-between">
-        <p className="text-3xl font-medium">Create Assessment</p>
+    <div className="p-3 md:p-10 opacity-110 w-7/12 flex flex-col justify-around h-auto gap-3 md:gap-7 bg-white rounded-xl">
+      <div className="flex justify-between items-center">
+        <p className="text-lg md:text-3xl font-medium">Create Assessment</p>
         <AiOutlineClose
-          size={30}
+          size={20}
           className="hover:cursor-pointer"
           onClick={() => setIsOpenModal(false)}
         />
       </div>
       <hr />
       <div>
-        <label className="text-xl " htmlFor="name of assessment">
+        <label className="text-base md:text-xl " htmlFor="name of assessment">
           Name of Assessment
         </label>
         <Input
@@ -35,7 +33,7 @@ const InputModel = ({ setIsOpenModal }) => {
         />
       </div>
       <div>
-        <label className="text-xl " htmlFor="description">
+        <label className="text-base md:text-xl " htmlFor="description">
           Description
         </label>
         <Input
@@ -45,7 +43,7 @@ const InputModel = ({ setIsOpenModal }) => {
         />
       </div>
       <div>
-        <label className="text-xl " htmlFor="question">
+        <label className="text-base md:text-xl " htmlFor="question">
           No of questions
         </label>
         <Input
@@ -55,7 +53,7 @@ const InputModel = ({ setIsOpenModal }) => {
         />
       </div>
       <div>
-        <label className="text-xl " htmlFor="description">
+        <label className="text-base md:text-xl " htmlFor="description">
           Duration of Test - In min
         </label>
         <Input
